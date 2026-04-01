@@ -608,11 +608,27 @@ h2 {
   background: #10222f;
 }
 
+.project-card__visual--gallery {
+  aspect-ratio: auto;
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 12px;
+  padding: 12px;
+  background: rgba(16, 34, 47, 0.08);
+}
+
 .project-card__visual img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 220ms ease;
+}
+
+.project-card__gallery-shot {
+  min-height: 240px;
+  border-radius: 18px;
+  border: 1px solid rgba(18, 36, 48, 0.08);
+  background: #fff8f0;
 }
 
 .project-card:hover .project-card__visual img {
@@ -1066,6 +1082,10 @@ h2 {
   .timeline-head,
   .panel-header {
     flex-direction: column;
+  }
+
+  .project-card__visual--gallery {
+    grid-template-columns: 1fr;
   }
 
   .signal-grid,

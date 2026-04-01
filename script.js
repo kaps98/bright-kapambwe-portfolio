@@ -75,9 +75,7 @@ const portfolioData = {
     "Web development"
   ],
   filters: [
-    "All",
-    "App",
-    "Website"
+    "All"
   ],
   projects: [
     {
@@ -85,9 +83,16 @@ const portfolioData = {
       category: "App",
       role: "Designer and Developer",
       period: "2026",
-      artwork: "assets/sales-tracking-dashboard-shot.png",
-      artworkAlt:
-        "Screenshot of the sales tracking system dashboard showing business metrics, stock, and sales activity.",
+      artworkGallery: [
+        {
+          src: "assets/sales-tracking-login-shot.png",
+          alt: "Screenshot of the sales tracking system login page."
+        },
+        {
+          src: "assets/sales-tracking-dashboard-shot.png",
+          alt: "Screenshot of the sales tracking system dashboard showing business metrics, stock, and sales activity."
+        }
+      ],
       summary:
         "I designed and built a sales tracking system for managing sales, receipts, stock movement, user roles, and reporting in one business workspace. This is a separate project linked from my portfolio.",
       challenge:
@@ -109,42 +114,6 @@ const portfolioData = {
         {
           label: "GitHub Repo",
           href: "https://github.com/kaps98/sales-tracking-system"
-        }
-      ]
-    },
-    {
-      title: "Professional Portfolio Website",
-      category: "Website",
-      role: "Designer and Developer",
-      period: "2026",
-      artwork: "assets/portfolio-website-shot-cropped.png",
-      artworkAlt:
-        "Screenshot of the Bright Kapambwe professional portfolio website.",
-      summary:
-        "I designed and built this portfolio website to present my skills, experience, projects, and contact information in a professional way online.",
-      challenge:
-        "I needed a polished web presence that felt more professional than a CV alone and could support GitHub, LinkedIn, and future project growth.",
-      contributions: [
-        "I created the site structure, content strategy, and visual system to make the portfolio feel modern and interactive.",
-        "I organized the site around my experience, qualifications, skills, and real GitHub projects so it supports applications and outreach.",
-        "I published the site on GitHub Pages and connected it to both GitHub and LinkedIn."
-      ],
-      outcome:
-        "The site now works as my main professional web presence and gives recruiters or collaborators a clearer way to understand my work than a PDF alone.",
-      proof: [
-        "Live on GitHub Pages",
-        "Responsive layout",
-        "Resume download"
-      ],
-      tags: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
-      links: [
-        {
-          label: "Live Site",
-          href: "https://kaps98.github.io/bright-kapambwe-portfolio/"
-        },
-        {
-          label: "GitHub Repo",
-          href: "https://github.com/kaps98/bright-kapambwe-portfolio"
         }
       ]
     }
@@ -397,6 +366,13 @@ function renderAbout() {
 }
 
 function renderFilters(active = "All") {
+  if (portfolioData.filters.length <= 1) {
+    filterRow.hidden = true;
+    filterRow.innerHTML = "";
+    return;
+  }
+
+  filterRow.hidden = false;
   filterRow.innerHTML = portfolioData.filters
     .map(
       (filter) => `
@@ -412,6 +388,20 @@ function projectCategoryTone(category) {
   return category === "App" ? "" : "is-teal";
 }
 
+function renderProjectVisual(project) {
+  if (project.artworkGallery?.length) {
+    return project.artworkGallery
+      .map(
+        (item) => `
+          <img class="project-card__gallery-shot" src="${item.src}" alt="${item.alt}" loading="lazy" />
+        `
+      )
+      .join("");
+  }
+
+  return `<img src="${project.artwork}" alt="${project.artworkAlt}" loading="lazy" />`;
+}
+
 function renderProjects(active = "All") {
   const projects =
     active === "All"
@@ -422,8 +412,8 @@ function renderProjects(active = "All") {
     .map(
       (project) => `
         <article class="project-card" data-reveal>
-          <figure class="project-card__visual">
-            <img src="${project.artwork}" alt="${project.artworkAlt}" loading="lazy" />
+          <figure class="project-card__visual ${project.artworkGallery?.length ? "project-card__visual--gallery" : ""}">
+            ${renderProjectVisual(project)}
           </figure>
 
           <div class="project-card__inner">
