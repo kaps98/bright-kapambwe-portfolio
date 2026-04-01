@@ -32,9 +32,37 @@ const portfolioData = {
       description: "Web development, programming, databases, and AI tools."
     }
   ],
+  aboutStrengths: [
+    "Team coordination",
+    "Quality reviews",
+    "Excel reporting",
+    "Database support",
+    "AI-data workflows",
+    "Stakeholder communication",
+    "Project follow-through",
+    "Web foundations"
+  ],
+  roleFit: [
+    {
+      title: "Project Coordination and Operations",
+      description: "Useful where a team needs structure, task tracking, and dependable delivery."
+    },
+    {
+      title: "Monitoring and Evaluation Support",
+      description: "Strong fit for reporting, database support, and implementation follow-up."
+    },
+    {
+      title: "Data Quality and Annotation Operations",
+      description: "Comfortable with review-heavy workflows that depend on accuracy and consistency."
+    },
+    {
+      title: "Junior Web or Digital Support Roles",
+      description: "Brings enough front-end and programming foundation to keep growing in product teams."
+    }
+  ],
   marquee: [
     "Project delivery",
-    "Monitoring & evaluation",
+    "Monitoring and evaluation",
     "Database management",
     "Data annotation",
     "Quality assurance",
@@ -59,26 +87,50 @@ const portfolioData = {
       category: "Leadership",
       role: "Project Lead",
       period: "Current role",
+      artwork: "assets/project-ops-lead.svg",
+      artworkAlt:
+        "Dashboard-style mockup representing team coordination, delivery oversight, and quality tracking.",
       summary:
-        "Leads a high-volume data operations environment by coordinating people, deadlines, reviews, and client-facing expectations with a strong quality focus.",
-      details: [
-        "Led and managed a team of 25+ members to keep workflows organized and productive.",
-        "Tracked project progress, managed task backlogs, and kept delivery aligned with timelines and project objectives.",
-        "Performed quality checks, data reviews, and error analysis to support data consistency and improve team efficiency."
+        "A recruiter-friendly snapshot of Bright's operational leadership work, where quality, deadlines, and team coordination all need to stay aligned.",
+      challenge:
+        "Keep a large team productive while protecting delivery timelines, review accuracy, and client expectations in a fast-moving workflow.",
+      contributions: [
+        "Led and managed a team of 25+ members to keep work organized and output consistent.",
+        "Tracked project progress, backlogs, and deadlines so delivery stayed visible and controlled.",
+        "Embedded quality checks, reviews, and error analysis into the day-to-day workflow."
+      ],
+      outcome:
+        "Strengthened operational visibility and more dependable execution by combining people management with structured review discipline.",
+      proof: [
+        "25+ teammates coordinated",
+        "Backlog and deadline oversight",
+        "Quality checks built into delivery"
       ],
       tags: ["Leadership", "Quality Assurance", "Backlog Management", "Client Collaboration"]
     },
     {
-      title: "Monitoring & Evaluation Reporting System",
+      title: "Monitoring and Evaluation Reporting System",
       category: "Monitoring & Evaluation",
-      role: "Monitoring & Evaluation Officer / Database Manager",
+      role: "Monitoring and Evaluation Officer / Database Manager",
       period: "2024 - 2025",
+      artwork: "assets/project-me-reporting.svg",
+      artworkAlt:
+        "Reporting dashboard mockup representing monitoring and evaluation summaries, charts, and implementation tracking.",
       summary:
-        "Supported impact-focused reporting and database workflows for a regional network in Zambia, turning project activity into structured updates and usable information.",
-      details: [
-        "Prepared and presented regular progress reports in Excel, highlighting achievements, challenges, and recommendations.",
-        "Collaborated with project managers, technical experts, and community leaders to improve implementation quality.",
-        "Managed monitoring and evaluation workflows with a database-oriented approach to keep records organized and actionable."
+        "A structured view of Bright's reporting and database work for impact-focused programs that need clear progress visibility.",
+      challenge:
+        "Turn ongoing project activity into useful reporting for stakeholders while keeping records organized and implementation progress easy to follow.",
+      contributions: [
+        "Prepared and presented regular progress reports in Excel with achievements, risks, and recommendations.",
+        "Worked with project managers, technical experts, and community leaders to improve reporting quality.",
+        "Supported monitoring workflows with database-oriented organization and record handling."
+      ],
+      outcome:
+        "Helped project information move from scattered updates to clearer reporting that supported stronger communication and follow-through.",
+      proof: [
+        "Excel-based reporting",
+        "Stakeholder-facing summaries",
+        "Database and M&E support"
       ],
       tags: ["M&E", "Excel Reporting", "Database Management", "Stakeholder Communication"]
     },
@@ -87,26 +139,50 @@ const portfolioData = {
       category: "Data & AI",
       role: "Data Operations",
       period: "Ongoing skill area",
+      artwork: "assets/project-data-ai.svg",
+      artworkAlt:
+        "AI workflow mockup representing dataset review, annotation tasks, and quality control checkpoints.",
       summary:
-        "Brings hands-on experience in structured annotation, transcription, and dataset review work that supports AI and data quality pipelines.",
-      details: [
-        "Worked with internal tools for data labeling, annotation, and quality assurance.",
-        "Handled tasks such as dataset validation, annotation guideline compliance, and quality control review.",
-        "Combined audio transcription, image and video annotation, and responsible handling of sensitive data."
+        "A portfolio framing of Bright's data operations capability, especially where AI workflows depend on clean labeling, review, and careful handling of data.",
+      challenge:
+        "Support annotation-heavy workflows that require accuracy, confidentiality, and consistent rule-following across different task types.",
+      contributions: [
+        "Worked with internal tools for data labeling, annotation, and quality assurance workflows.",
+        "Handled tasks such as dataset validation, annotation guideline compliance, and review control.",
+        "Supported audio transcription plus image and video annotation in quality-focused environments."
+      ],
+      outcome:
+        "Built trust in data quality processes by combining careful execution, strong attention to detail, and comfort with review-based work.",
+      proof: [
+        "Dataset validation",
+        "Annotation compliance",
+        "Audio, image, and video tasks"
       ],
       tags: ["Data Annotation", "Dataset Validation", "Audio Transcription", "Quality Control"]
     },
     {
-      title: "Web & Software Development Foundation",
+      title: "Web and Software Development Foundation",
       category: "Web Development",
       role: "Computer Scientist",
       period: "Built through study and certification",
+      artwork: "assets/project-web-foundation.svg",
+      artworkAlt:
+        "Portfolio and code editor style mockup representing front-end development and software foundations.",
       summary:
-        "Developed a versatile technical base that supports portfolio websites, digital tools, database-backed systems, and future automation work.",
-      details: [
-        "Built a programming foundation across JavaScript, HTML, CSS, Java, C, and Python.",
-        "Strengthened web development and AI knowledge through dedicated certification tracks.",
-        "Combines software fundamentals with graphic design awareness and practical system maintenance skills."
+        "A technical foundation that supports portfolio sites, small web builds, digital tools, and future product work.",
+      challenge:
+        "Develop enough practical technical range to contribute across web interfaces, databases, and general software problem solving.",
+      contributions: [
+        "Built a programming base across JavaScript, HTML, CSS, Python, Java, and C.",
+        "Strengthened web and AI knowledge through additional certificate study.",
+        "Connected software basics with graphic design awareness and practical computer maintenance skills."
+      ],
+      outcome:
+        "Created a platform for continued growth into stronger web, product, and technical support opportunities while already being useful on digital projects.",
+      proof: [
+        "Front-end fundamentals",
+        "Programming language range",
+        "Certificate-backed web learning"
       ],
       tags: ["JavaScript", "HTML", "CSS", "Python", "Databases"]
     }
@@ -125,7 +201,7 @@ const portfolioData = {
       ]
     },
     {
-      role: "Monitoring & Evaluation Officer / Database Manager",
+      role: "Monitoring and Evaluation Officer / Database Manager",
       organization: "Vision Africa Regional Network - Zambia",
       period: "2024 - 2025",
       summary:
@@ -156,7 +232,7 @@ const portfolioData = {
   ],
   certifications: [
     {
-      title: "Ethics, Technology & Engineering",
+      title: "Ethics, Technology and Engineering",
       institution: "University of Notre Dame",
       period: "2022",
       label: "Certificate",
@@ -204,14 +280,14 @@ const portfolioData = {
       ]
     },
     {
-      title: "Operations & Delivery",
+      title: "Operations and Delivery",
       description: "Skills that help teams stay organized, accurate, and on track under real work conditions.",
       items: [
         "Project Management",
         "Quality Assurance",
         "Dataset Validation",
-        "Monitoring & Evaluation",
-        "Data Annotation & Labeling",
+        "Monitoring and Evaluation",
+        "Data Annotation and Labeling",
         "Annotation Guidelines Compliance",
         "Reporting Workflows",
         "Attention to Detail"
@@ -228,18 +304,18 @@ const portfolioData = {
         "Teamwork",
         "Computer Literacy",
         "Administration",
-        "Graphic Designs"
+        "Graphic Design"
       ]
     },
     {
-      title: "Language & Media Work",
+      title: "Language and Media Work",
       description: "Useful capabilities for multilingual communication and data-centric media tasks.",
       items: [
         "English",
         "Bemba",
         "Nyanja",
-        "Audio Transcription & Translation",
-        "Image & Video Annotation",
+        "Audio Transcription and Translation",
+        "Image and Video Annotation",
         "Data Quality Assurance",
         "Hardware and Software",
         "Computer Maintenance"
@@ -263,6 +339,11 @@ const portfolioData = {
       href: "https://www.linkedin.com/in/kapambwe-bright-726a12292/"
     },
     {
+      title: "GitHub",
+      value: "kaps98/bright-kapambwe-portfolio",
+      href: "https://github.com/kaps98/bright-kapambwe-portfolio"
+    },
+    {
       title: "Location",
       value: "Mansa Town, Zambia"
     },
@@ -277,6 +358,8 @@ const statStrip = document.querySelector("[data-stat-strip]");
 const signalGrid = document.querySelector("[data-signal-grid]");
 const socialLinks = document.querySelector("[data-social-links]");
 const marqueeTrack = document.querySelector("[data-marquee-track]");
+const aboutStrengths = document.querySelector("[data-about-strengths]");
+const aboutRoleFit = document.querySelector("[data-about-role-fit]");
 const filterRow = document.querySelector("[data-filter-row]");
 const projectGrid = document.querySelector("[data-project-grid]");
 const experienceList = document.querySelector("[data-experience-list]");
@@ -326,16 +409,29 @@ function createSocialArea() {
     );
   }
 
-  if (!links.length) {
-    links.push(`<span class="pill pill--muted">GitHub and LinkedIn links can be added next</span>`);
-  }
-
   socialLinks.innerHTML = links.join("");
 }
 
 function createMarquee() {
   const chips = [...portfolioData.marquee, ...portfolioData.marquee];
   marqueeTrack.innerHTML = chips.map((item) => `<span class="marquee-chip">${item}</span>`).join("");
+}
+
+function renderAbout() {
+  aboutStrengths.innerHTML = portfolioData.aboutStrengths
+    .map((item) => `<span>${item}</span>`)
+    .join("");
+
+  aboutRoleFit.innerHTML = portfolioData.roleFit
+    .map(
+      (item) => `
+        <article class="about-role-item">
+          <strong>${item.title}</strong>
+          <span>${item.description}</span>
+        </article>
+      `
+    )
+    .join("");
 }
 
 function renderFilters(active = "All") {
@@ -364,25 +460,50 @@ function renderProjects(active = "All") {
     .map(
       (project) => `
         <article class="project-card" data-reveal>
-          <div class="project-card__head">
-            <span class="project-card__category ${projectCategoryTone(project.category)}">${project.category}</span>
-            <div class="project-card__meta">
-              <span>${project.role}</span>
-              <span>${project.period}</span>
+          <figure class="project-card__visual">
+            <img src="${project.artwork}" alt="${project.artworkAlt}" loading="lazy" />
+          </figure>
+
+          <div class="project-card__inner">
+            <div class="project-card__head">
+              <span class="project-card__category ${projectCategoryTone(project.category)}">${project.category}</span>
+              <div class="project-card__meta">
+                <span>${project.role}</span>
+                <span>${project.period}</span>
+              </div>
             </div>
-          </div>
 
-          <div class="project-card__body">
-            <h3>${project.title}</h3>
-            <p>${project.summary}</p>
-          </div>
+            <div class="project-card__body">
+              <h3>${project.title}</h3>
+              <p class="project-card__summary">${project.summary}</p>
+            </div>
 
-          <ul class="project-list">
-            ${project.details.map((detail) => `<li>${detail}</li>`).join("")}
-          </ul>
+            <div class="project-brief">
+              <article class="project-panel">
+                <span class="project-label">Challenge</span>
+                <p>${project.challenge}</p>
+              </article>
 
-          <div class="project-tags">
-            ${project.tags.map((tag) => `<span class="project-tag">${tag}</span>`).join("")}
+              <article class="project-panel">
+                <span class="project-label">Contribution</span>
+                <ul class="project-list">
+                  ${project.contributions.map((detail) => `<li>${detail}</li>`).join("")}
+                </ul>
+              </article>
+
+              <article class="project-panel">
+                <span class="project-label">Value</span>
+                <p>${project.outcome}</p>
+              </article>
+            </div>
+
+            <div class="project-proof">
+              ${project.proof.map((item) => `<span class="project-proof-item">${item}</span>`).join("")}
+            </div>
+
+            <div class="project-tags">
+              ${project.tags.map((tag) => `<span class="project-tag">${tag}</span>`).join("")}
+            </div>
           </div>
         </article>
       `
@@ -466,8 +587,10 @@ function renderSkills() {
 function renderContactCards() {
   contactCards.innerHTML = portfolioData.contactCards
     .map((item) => {
+      const linkAttrs =
+        item.href && item.href.startsWith("http") ? ' target="_blank" rel="noreferrer"' : "";
       const content = item.href
-        ? `<a href="${item.href}">${item.value}</a>`
+        ? `<a href="${item.href}"${linkAttrs}>${item.value}</a>`
         : `<span>${item.value}</span>`;
 
       return `
@@ -574,6 +697,7 @@ function init() {
   createSignalCards();
   createSocialArea();
   createMarquee();
+  renderAbout();
   renderFilters();
   renderProjects();
   renderExperience();

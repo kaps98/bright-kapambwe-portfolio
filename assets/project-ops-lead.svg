@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Operations leadership dashboard mockup</title>
+  <desc id="desc">A stylized dashboard showing team health, backlog tracking, and quality review metrics.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10222f" />
+      <stop offset="100%" stop-color="#1f6c72" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" rx="42" fill="url(#bg)" />
+  <rect x="78" y="78" width="1444" height="844" rx="34" fill="#f4ede2" />
+  <rect x="78" y="78" width="1444" height="82" rx="34" fill="#e9ddcf" />
+  <circle cx="132" cy="118" r="14" fill="#c8853f" />
+  <circle cx="172" cy="118" r="14" fill="#1f6c72" />
+  <circle cx="212" cy="118" r="14" fill="#a45437" />
+  <rect x="116" y="210" width="286" height="664" rx="26" fill="#132c3a" />
+  <rect x="454" y="210" width="464" height="280" rx="28" fill="#fff9f1" />
+  <rect x="950" y="210" width="454" height="280" rx="28" fill="#fff9f1" />
+  <rect x="454" y="522" width="950" height="352" rx="28" fill="#fff9f1" />
+
+  <text x="166" y="270" fill="#f4ede2" font-family="Arial, sans-serif" font-size="42" font-weight="700">Live Operations</text>
+  <text x="166" y="320" fill="#a8c3c3" font-family="Arial, sans-serif" font-size="26">Team coordination and delivery visibility</text>
+
+  <rect x="166" y="384" width="188" height="20" rx="10" fill="#2f5560" />
+  <rect x="166" y="446" width="154" height="20" rx="10" fill="#2f5560" />
+  <rect x="166" y="508" width="206" height="20" rx="10" fill="#2f5560" />
+  <rect x="166" y="570" width="178" height="20" rx="10" fill="#2f5560" />
+  <rect x="166" y="720" width="186" height="108" rx="24" fill="#1f6c72" />
+  <text x="196" y="774" fill="#f4ede2" font-family="Arial, sans-serif" font-size="30" font-weight="700">25+</text>
+  <text x="196" y="812" fill="#dce8e3" font-family="Arial, sans-serif" font-size="22">Team members</text>
+
+  <text x="500" y="272" fill="#122430" font-family="Arial, sans-serif" font-size="38" font-weight="700">Quality target</text>
+  <text x="500" y="322" fill="#5a6d78" font-family="Arial, sans-serif" font-size="24">Review, feedback, and consistency checks</text>
+  <rect x="500" y="364" width="350" height="26" rx="13" fill="#ead8c5" />
+  <rect x="500" y="364" width="333" height="26" rx="13" fill="#c8853f" />
+  <text x="500" y="438" fill="#122430" font-family="Arial, sans-serif" font-size="66" font-weight="700">95%</text>
+
+  <text x="996" y="272" fill="#122430" font-family="Arial, sans-serif" font-size="38" font-weight="700">Delivery overview</text>
+  <text x="996" y="322" fill="#5a6d78" font-family="Arial, sans-serif" font-size="24">Backlog, timeline, and checkpoints</text>
+  <rect x="996" y="376" width="106" height="84" rx="22" fill="#10222f" />
+  <rect x="1124" y="342" width="106" height="118" rx="22" fill="#1f6c72" />
+  <rect x="1252" y="302" width="106" height="158" rx="22" fill="#c8853f" />
+
+  <text x="500" y="586" fill="#122430" font-family="Arial, sans-serif" font-size="38" font-weight="700">Weekly execution board</text>
+  <rect x="500" y="638" width="858" height="58" rx="18" fill="#f3ecdf" />
+  <rect x="500" y="722" width="858" height="58" rx="18" fill="#f3ecdf" />
+  <rect x="500" y="806" width="858" height="58" rx="18" fill="#f3ecdf" />
+  <rect x="540" y="658" width="220" height="18" rx="9" fill="#1f6c72" />
+  <rect x="540" y="742" width="182" height="18" rx="9" fill="#c8853f" />
+  <rect x="540" y="826" width="202" height="18" rx="9" fill="#a45437" />
+  <rect x="1170" y="652" width="142" height="30" rx="15" fill="#10222f" />
+  <rect x="1170" y="736" width="142" height="30" rx="15" fill="#1f6c72" />
+  <rect x="1170" y="820" width="142" height="30" rx="15" fill="#c8853f" />
+</svg>

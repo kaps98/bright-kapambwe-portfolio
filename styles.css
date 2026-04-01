@@ -185,6 +185,8 @@ img {
 
 .hero-copy,
 .hero-card,
+.about-copy,
+.about-panel,
 .project-card,
 .timeline-item,
 .panel,
@@ -454,6 +456,77 @@ h2 {
   padding-top: 28px;
 }
 
+.section--about {
+  padding-top: 28px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.82fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.about-copy {
+  padding: 34px;
+  border-radius: var(--radius-xl);
+}
+
+.about-stack {
+  display: grid;
+  gap: 20px;
+}
+
+.about-panel {
+  padding: 24px;
+  border-radius: var(--radius-lg);
+}
+
+.about-actions {
+  margin-top: 30px;
+}
+
+.about-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.about-chip-list span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 0 14px;
+  border-radius: var(--radius-sm);
+  background: rgba(18, 36, 48, 0.06);
+  border: 1px solid rgba(18, 36, 48, 0.08);
+  font-size: 0.88rem;
+}
+
+.about-role-list {
+  display: grid;
+  gap: 12px;
+}
+
+.about-role-item {
+  padding: 16px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.56);
+  border: 1px solid rgba(18, 36, 48, 0.08);
+}
+
+.about-role-item strong {
+  display: block;
+  font-size: 1rem;
+}
+
+.about-role-item span {
+  display: block;
+  margin-top: 6px;
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+
 .marquee-shell {
   overflow: hidden;
   border-radius: var(--radius-xl);
@@ -527,6 +600,30 @@ h2 {
   min-height: 100%;
 }
 
+.project-card__visual {
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border-radius: 22px;
+  border: 1px solid rgba(18, 36, 48, 0.08);
+  background: #10222f;
+}
+
+.project-card__visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 220ms ease;
+}
+
+.project-card:hover .project-card__visual img {
+  transform: scale(1.02);
+}
+
+.project-card__inner {
+  display: grid;
+  gap: 18px;
+}
+
 .project-card__head {
   display: flex;
   justify-content: space-between;
@@ -571,6 +668,32 @@ h2 {
   color: var(--ink-soft);
 }
 
+.project-card__summary {
+  font-size: 1rem;
+}
+
+.project-brief {
+  display: grid;
+  gap: 12px;
+}
+
+.project-panel {
+  padding: 16px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.52);
+  border: 1px solid rgba(18, 36, 48, 0.08);
+}
+
+.project-label {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--teal);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
 .project-list,
 .timeline-list {
   display: grid;
@@ -602,6 +725,24 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+.project-proof {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.project-proof-item {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 12px;
+  border-radius: var(--radius-sm);
+  background: rgba(200, 133, 63, 0.12);
+  color: var(--clay);
+  font-size: 0.82rem;
+  font-weight: 700;
 }
 
 .project-tag {
@@ -833,6 +974,7 @@ h2 {
 
 @media (max-width: 1080px) {
   .hero-grid,
+  .about-grid,
   .split-section,
   .qualifications-grid,
   .skills-shell,
@@ -866,6 +1008,8 @@ h2 {
     padding: 32px 24px;
   }
 
+  .about-copy,
+  .about-panel,
   .hero-card,
   .project-card,
   .timeline-item,

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Web development foundation mockup</title>
+  <desc id="desc">A stylized browser and code editor layout representing front-end development and portfolio building.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#efe4d5" />
+      <stop offset="100%" stop-color="#f8efe3" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" rx="42" fill="url(#bg)" />
+  <rect x="92" y="92" width="1416" height="816" rx="34" fill="#10222f" />
+  <rect x="92" y="92" width="1416" height="82" rx="34" fill="#173545" />
+  <circle cx="148" cy="133" r="13" fill="#c8853f" />
+  <circle cx="186" cy="133" r="13" fill="#1f6c72" />
+  <circle cx="224" cy="133" r="13" fill="#a45437" />
+
+  <rect x="128" y="208" width="584" height="662" rx="28" fill="#f8efe3" />
+  <rect x="744" y="208" width="632" height="662" rx="28" fill="#132c3a" />
+
+  <text x="168" y="270" fill="#122430" font-family="Arial, sans-serif" font-size="38" font-weight="700">Portfolio interface</text>
+  <rect x="168" y="308" width="504" height="236" rx="24" fill="#ead8c5" />
+  <rect x="200" y="340" width="270" height="24" rx="12" fill="#122430" />
+  <rect x="200" y="388" width="214" height="18" rx="9" fill="#b8a891" />
+  <rect x="200" y="422" width="232" height="18" rx="9" fill="#b8a891" />
+  <rect x="200" y="456" width="194" height="18" rx="9" fill="#b8a891" />
+  <rect x="500" y="340" width="132" height="156" rx="22" fill="#c8853f" />
+  <rect x="168" y="584" width="504" height="244" rx="24" fill="#fff9f1" />
+  <rect x="204" y="622" width="200" height="18" rx="9" fill="#1f6c72" />
+  <rect x="204" y="674" width="428" height="22" rx="11" fill="#ead8c5" />
+  <rect x="204" y="720" width="366" height="22" rx="11" fill="#ead8c5" />
+  <rect x="204" y="766" width="318" height="22" rx="11" fill="#ead8c5" />
+
+  <text x="786" y="270" fill="#f8efe3" font-family="Arial, sans-serif" font-size="38" font-weight="700">Code workspace</text>
+  <rect x="786" y="316" width="548" height="508" rx="26" fill="#0d1d28" />
+  <rect x="828" y="364" width="252" height="16" rx="8" fill="#3d6370" />
+  <rect x="828" y="404" width="332" height="16" rx="8" fill="#c8853f" />
+  <rect x="828" y="444" width="288" height="16" rx="8" fill="#7fb9bb" />
+  <rect x="828" y="484" width="364" height="16" rx="8" fill="#3d6370" />
+  <rect x="828" y="524" width="228" height="16" rx="8" fill="#c8853f" />
+  <rect x="828" y="564" width="386" height="16" rx="8" fill="#7fb9bb" />
+  <rect x="828" y="604" width="268" height="16" rx="8" fill="#3d6370" />
+  <rect x="828" y="644" width="324" height="16" rx="8" fill="#c8853f" />
+  <rect x="828" y="684" width="280" height="16" rx="8" fill="#7fb9bb" />
+  <rect x="786" y="838" width="156" height="24" rx="12" fill="#1f6c72" />
+  <rect x="960" y="838" width="132" height="24" rx="12" fill="#c8853f" />
+  <rect x="1108" y="838" width="116" height="24" rx="12" fill="#a45437" />
+</svg>
