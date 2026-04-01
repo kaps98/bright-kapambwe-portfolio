@@ -9,27 +9,27 @@ const portfolioData = {
     linkedin: "https://www.linkedin.com/in/kapambwe-bright-726a12292/"
   },
   stats: [
-    { value: 25, suffix: "+", label: "Team members coordinated in operations leadership" },
-    { value: 95, suffix: "%", label: "Data quality target highlighted in current work" },
+    { value: 25, suffix: "+", label: "Team members I coordinated in operations leadership" },
+    { value: 95, suffix: "%", label: "Data quality target I support in my current work" },
     { value: 6, suffix: "+", label: "Certificates across AI, web, ethics, and OR" },
-    { value: 3, suffix: "", label: "Fluent working languages" }
+    { value: 3, suffix: "", label: "Languages I use fluently" }
   ],
   focusAreas: [
     {
       title: "Project Leadership",
-      description: "Backlog tracking, deadline management, and team coordination."
+      description: "I bring backlog tracking, deadline management, and team coordination."
     },
     {
       title: "Data Quality",
-      description: "Validation, review, reporting, and process discipline."
+      description: "I focus on validation, review, reporting, and process discipline."
     },
     {
       title: "Monitoring & Evaluation",
-      description: "Structured reporting and database support for impact work."
+      description: "I support impact work through structured reporting and database organization."
     },
     {
       title: "Technical Foundation",
-      description: "Web development, programming, databases, and AI tools."
+      description: "I work across web development, programming, databases, and AI tools."
     }
   ],
   aboutStrengths: [
@@ -45,19 +45,19 @@ const portfolioData = {
   roleFit: [
     {
       title: "Project Coordination and Operations",
-      description: "Useful where a team needs structure, task tracking, and dependable delivery."
+      description: "I add value where a team needs structure, task tracking, and dependable delivery."
     },
     {
       title: "Monitoring and Evaluation Support",
-      description: "Strong fit for reporting, database support, and implementation follow-up."
+      description: "I am a strong fit for reporting, database support, and implementation follow-up."
     },
     {
       title: "Data Quality and Annotation Operations",
-      description: "Comfortable with review-heavy workflows that depend on accuracy and consistency."
+      description: "I am comfortable in review-heavy workflows that depend on accuracy and consistency."
     },
     {
       title: "Junior Web or Digital Support Roles",
-      description: "Brings enough front-end and programming foundation to keep growing in product teams."
+      description: "I bring enough front-end and programming foundation to keep growing in product teams."
     }
   ],
   marquee: [
@@ -91,16 +91,16 @@ const portfolioData = {
       artworkAlt:
         "Dashboard-style mockup representing team coordination, delivery oversight, and quality tracking.",
       summary:
-        "A recruiter-friendly snapshot of Bright's operational leadership work, where quality, deadlines, and team coordination all need to stay aligned.",
+        "This is a recruiter-friendly snapshot of my operational leadership work, where quality, deadlines, and team coordination all need to stay aligned.",
       challenge:
-        "Keep a large team productive while protecting delivery timelines, review accuracy, and client expectations in a fast-moving workflow.",
+        "I work to keep a large team productive while protecting delivery timelines, review accuracy, and client expectations in a fast-moving workflow.",
       contributions: [
-        "Led and managed a team of 25+ members to keep work organized and output consistent.",
-        "Tracked project progress, backlogs, and deadlines so delivery stayed visible and controlled.",
-        "Embedded quality checks, reviews, and error analysis into the day-to-day workflow."
+        "I lead and manage a team of 25+ members to keep work organized and output consistent.",
+        "I track project progress, backlogs, and deadlines so delivery stays visible and controlled.",
+        "I embed quality checks, reviews, and error analysis into the day-to-day workflow."
       ],
       outcome:
-        "Strengthened operational visibility and more dependable execution by combining people management with structured review discipline.",
+        "I strengthen operational visibility and more dependable execution by combining people management with structured review discipline.",
       proof: [
         "25+ teammates coordinated",
         "Backlog and deadline oversight",
@@ -117,16 +117,16 @@ const portfolioData = {
       artworkAlt:
         "Reporting dashboard mockup representing monitoring and evaluation summaries, charts, and implementation tracking.",
       summary:
-        "A structured view of Bright's reporting and database work for impact-focused programs that need clear progress visibility.",
+        "This is a structured view of my reporting and database work for impact-focused programs that need clear progress visibility.",
       challenge:
-        "Turn ongoing project activity into useful reporting for stakeholders while keeping records organized and implementation progress easy to follow.",
+        "I turn ongoing project activity into useful reporting for stakeholders while keeping records organized and implementation progress easy to follow.",
       contributions: [
-        "Prepared and presented regular progress reports in Excel with achievements, risks, and recommendations.",
-        "Worked with project managers, technical experts, and community leaders to improve reporting quality.",
-        "Supported monitoring workflows with database-oriented organization and record handling."
+        "I prepare and present regular progress reports in Excel with achievements, risks, and recommendations.",
+        "I work with project managers, technical experts, and community leaders to improve reporting quality.",
+        "I support monitoring workflows with database-oriented organization and record handling."
       ],
       outcome:
-        "Helped project information move from scattered updates to clearer reporting that supported stronger communication and follow-through.",
+        "I help project information move from scattered updates to clearer reporting that supports stronger communication and follow-through.",
       proof: [
         "Excel-based reporting",
         "Stakeholder-facing summaries",
@@ -143,16 +143,16 @@ const portfolioData = {
       artworkAlt:
         "AI workflow mockup representing dataset review, annotation tasks, and quality control checkpoints.",
       summary:
-        "A portfolio framing of Bright's data operations capability, especially where AI workflows depend on clean labeling, review, and careful handling of data.",
+        "This card reflects my data operations capability, especially where AI workflows depend on clean labeling, review, and careful handling of data.",
       challenge:
-        "Support annotation-heavy workflows that require accuracy, confidentiality, and consistent rule-following across different task types.",
+        "I support annotation-heavy workflows that require accuracy, confidentiality, and consistent rule-following across different task types.",
       contributions: [
-        "Worked with internal tools for data labeling, annotation, and quality assurance workflows.",
-        "Handled tasks such as dataset validation, annotation guideline compliance, and review control.",
-        "Supported audio transcription plus image and video annotation in quality-focused environments."
+        "I work with internal tools for data labeling, annotation, and quality assurance workflows.",
+        "I handle tasks such as dataset validation, annotation guideline compliance, and review control.",
+        "I support audio transcription plus image and video annotation in quality-focused environments."
       ],
       outcome:
-        "Built trust in data quality processes by combining careful execution, strong attention to detail, and comfort with review-based work.",
+        "I build trust in data quality processes by combining careful execution, strong attention to detail, and comfort with review-based work.",
       proof: [
         "Dataset validation",
         "Annotation compliance",
@@ -169,16 +169,16 @@ const portfolioData = {
       artworkAlt:
         "Portfolio and code editor style mockup representing front-end development and software foundations.",
       summary:
-        "A technical foundation that supports portfolio sites, small web builds, digital tools, and future product work.",
+        "I have a technical foundation that supports portfolio sites, small web builds, digital tools, and future product work.",
       challenge:
-        "Develop enough practical technical range to contribute across web interfaces, databases, and general software problem solving.",
+        "I continue building practical technical range so I can contribute across web interfaces, databases, and general software problem solving.",
       contributions: [
-        "Built a programming base across JavaScript, HTML, CSS, Python, Java, and C.",
-        "Strengthened web and AI knowledge through additional certificate study.",
-        "Connected software basics with graphic design awareness and practical computer maintenance skills."
+        "I have built a programming base across JavaScript, HTML, CSS, Python, Java, and C.",
+        "I strengthened my web and AI knowledge through additional certificate study.",
+        "I connect software basics with graphic design awareness and practical computer maintenance skills."
       ],
       outcome:
-        "Created a platform for continued growth into stronger web, product, and technical support opportunities while already being useful on digital projects.",
+        "This foundation gives me room to grow into stronger web, product, and technical support opportunities while already being useful on digital projects.",
       proof: [
         "Front-end fundamentals",
         "Programming language range",
@@ -193,11 +193,11 @@ const portfolioData = {
       organization: "Inyenda Company",
       period: "Current role",
       summary:
-        "Leading operational delivery with a focus on people management, data quality, client expectations, and day-to-day execution discipline.",
+        "I lead operational delivery with a focus on people management, data quality, client expectations, and day-to-day execution discipline.",
       highlights: [
-        "Coordinated a team of 25+ members to maintain workflow efficiency and quality standards.",
-        "Managed backlogs, deadlines, and performance feedback loops to improve productivity.",
-        "Conducted reviews and error analysis to help the team maintain a 95% data quality target."
+        "I coordinate a team of 25+ members to maintain workflow efficiency and quality standards.",
+        "I manage backlogs, deadlines, and performance feedback loops to improve productivity.",
+        "I conduct reviews and error analysis to help the team maintain a 95% data quality target."
       ]
     },
     {
@@ -205,11 +205,11 @@ const portfolioData = {
       organization: "Vision Africa Regional Network - Zambia",
       period: "2024 - 2025",
       summary:
-        "Blended reporting, database support, and stakeholder coordination to help programs communicate progress and maintain structured records.",
+        "I combined reporting, database support, and stakeholder coordination to help programs communicate progress and maintain structured records.",
       highlights: [
-        "Produced progress reports in Excel that highlighted achievements, risks, and recommendations.",
-        "Worked closely with project stakeholders, including technical experts and community leaders.",
-        "Supported database management and monitoring workflows to improve reporting clarity and implementation follow-through."
+        "I produced progress reports in Excel that highlighted achievements, risks, and recommendations.",
+        "I worked closely with project stakeholders, including technical experts and community leaders.",
+        "I supported database management and monitoring workflows to improve reporting clarity and implementation follow-through."
       ]
     }
   ],
@@ -220,14 +220,14 @@ const portfolioData = {
       period: "2020 - 2024",
       label: "Degree",
       summary:
-        "Academic foundation in computer science with practical relevance for software, data systems, and digital problem solving."
+        "This degree gave me an academic foundation in computer science with practical relevance for software, data systems, and digital problem solving."
     },
     {
       title: "Grade 12 School Certificate",
       institution: "Chitamba Secondary School",
       period: "2017 - 2019",
       label: "School",
-      summary: "General secondary education that supported the path into higher technical study."
+      summary: "This stage of my education supported my path into higher technical study."
     }
   ],
   certifications: [
@@ -237,7 +237,7 @@ const portfolioData = {
       period: "2022",
       label: "Certificate",
       summary:
-        "Focused on how technology decisions connect to ethics, responsibility, and wider societal impact."
+        "This certificate strengthened how I think about ethics, responsibility, and the wider impact of technology decisions."
     },
     {
       title: "Operations Research Series",
@@ -245,27 +245,27 @@ const portfolioData = {
       period: "2023",
       label: "3 Certificates",
       summary:
-        "Covered optimization algorithms, theory, and models with applications for structured decision-making."
+        "These certificates covered optimization algorithms, theory, and models that support structured decision-making."
     },
     {
       title: "Artificial Intelligence",
       institution: "State University of New York",
       period: "2023",
       label: "Certificate",
-      summary: "Expanded Bright's understanding of AI concepts and practical digital transformation potential."
+      summary: "This certificate expanded my understanding of AI concepts and practical digital transformation potential."
     },
     {
       title: "Web Development",
       institution: "State University of New York",
       period: "2023",
       label: "Certificate",
-      summary: "Strengthened front-end foundations that directly support this portfolio and future web work."
+      summary: "This certificate strengthened my front-end foundation and directly supports this portfolio and my future web work."
     }
   ],
   skillGroups: [
     {
       title: "Technical Toolkit",
-      description: "The stack and technical areas Bright can use to build, support, and improve digital work.",
+      description: "These are the technical areas I use to build, support, and improve digital work.",
       items: [
         "JavaScript",
         "HTML",
@@ -281,7 +281,7 @@ const portfolioData = {
     },
     {
       title: "Operations and Delivery",
-      description: "Skills that help teams stay organized, accurate, and on track under real work conditions.",
+      description: "These skills help me keep teams organized, accurate, and on track under real work conditions.",
       items: [
         "Project Management",
         "Quality Assurance",
@@ -295,7 +295,7 @@ const portfolioData = {
     },
     {
       title: "Professional Strengths",
-      description: "The collaboration and execution qualities that make Bright effective in team environments.",
+      description: "These are the collaboration and execution qualities that make me effective in team environments.",
       items: [
         "Leadership",
         "Critical Thinking",
@@ -309,7 +309,7 @@ const portfolioData = {
     },
     {
       title: "Language and Media Work",
-      description: "Useful capabilities for multilingual communication and data-centric media tasks.",
+      description: "I use these capabilities in multilingual communication and data-centric media tasks.",
       items: [
         "English",
         "Bemba",
