@@ -81,20 +81,22 @@ const portfolioData = {
     {
       title: "SalesPilot Sales Tracking System",
       category: "App",
-      role: "Designer and Developer",
+      role: "System Designer and Developer",
       period: "2026",
       artworkGallery: [
         {
           src: "assets/sales-tracking-login-shot.png",
-          alt: "Screenshot of the sales tracking system login page."
+          alt: "Screenshot of the sales tracking system login page.",
+          label: "Login View"
         },
         {
           src: "assets/sales-tracking-dashboard-shot.png",
-          alt: "Screenshot of the sales tracking system dashboard showing business metrics, stock, and sales activity."
+          alt: "Screenshot of the sales tracking system dashboard showing business metrics, stock, and sales activity.",
+          label: "Dashboard View"
         }
       ],
       summary:
-        "I designed and built a sales tracking system for managing sales, receipts, stock movement, user roles, and reporting in one business workspace. This is a separate project linked from my portfolio.",
+        "I designed and built a business system for managing sales, receipts, stock movement, user roles, and reporting in one workspace. This is a separate project linked from my portfolio.",
       challenge:
         "I wanted to build a practical business system that goes beyond a simple dashboard by handling real sales operations, receipts, inventory control, and user access.",
       contributions: [
@@ -112,7 +114,7 @@ const portfolioData = {
       tags: ["JavaScript", "Python", "MySQL", "Business Software"],
       links: [
         {
-          label: "GitHub Repo",
+          label: "View GitHub Repository",
           href: "https://github.com/kaps98/sales-tracking-system"
         }
       ]
@@ -393,7 +395,10 @@ function renderProjectVisual(project) {
     return project.artworkGallery
       .map(
         (item) => `
-          <img class="project-card__gallery-shot" src="${item.src}" alt="${item.alt}" loading="lazy" />
+          <figure class="project-card__shot">
+            <img class="project-card__gallery-shot" src="${item.src}" alt="${item.alt}" loading="lazy" />
+            <figcaption class="project-card__shot-label">${item.label}</figcaption>
+          </figure>
         `
       )
       .join("");
