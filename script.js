@@ -6,7 +6,7 @@ const portfolioData = {
     location: "Mansa Town, Zambia",
     resume: "assets/Bright-Kapambwe-Resume.pdf",
     github: "https://github.com/kaps98/bright-kapambwe-portfolio",
-    linkedin: ""
+    linkedin: "https://www.linkedin.com/in/kapambwe-bright-726a12292/"
   },
   stats: [
     { value: 25, suffix: "+", label: "Team members coordinated in operations leadership" },
@@ -256,6 +256,11 @@ const portfolioData = {
       title: "Phone",
       value: "+260764201211",
       href: "tel:+260764201211"
+    },
+    {
+      title: "LinkedIn",
+      value: "kapambwe-bright-726a12292",
+      href: "https://www.linkedin.com/in/kapambwe-bright-726a12292/"
     },
     {
       title: "Location",
