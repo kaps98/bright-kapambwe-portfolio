@@ -190,7 +190,7 @@ const portfolioData = {
   experience: [
     {
       role: "Project Lead",
-      organization: "Inyenda Company",
+      organization: "YENDA",
       period: "Current role",
       summary:
         "I lead operational delivery with a focus on people management, data quality, client expectations, and day-to-day execution discipline.",
@@ -521,7 +521,7 @@ function renderExperience() {
           <div class="timeline-head">
             <div class="timeline-role">
               <h3>${item.role}</h3>
-              <span>${item.organization}</span>
+              <span class="timeline-org">${item.organization}</span>
             </div>
             <span class="timeline-date">${item.period}</span>
           </div>
