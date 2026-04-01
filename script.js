@@ -85,9 +85,16 @@ const portfolioData = {
       category: "App",
       role: "Designer and Developer",
       period: "2026",
-      artwork: "assets/sales-tracking-system-shot.png",
-      artworkAlt:
-        "Screenshot of the sales tracking system login and business workspace interface.",
+      artworkGallery: [
+        {
+          src: "assets/sales-tracking-dashboard-shot.png",
+          alt: "Screenshot of the sales tracking system dashboard showing business metrics, stock, and sales activity."
+        },
+        {
+          src: "assets/sales-tracking-sales-shot.png",
+          alt: "Screenshot of the sales tracking system sales page showing the sale entry form and receipt preview."
+        }
+      ],
       summary:
         "I designed and built a sales tracking system for managing sales, receipts, stock movement, user roles, and reporting in one business workspace.",
       challenge:
@@ -412,6 +419,29 @@ function projectCategoryTone(category) {
   return category === "App" ? "" : "is-teal";
 }
 
+function renderProjectVisual(project) {
+  if (project.artworkGallery?.length) {
+    return `
+      <div class="project-card__gallery">
+        ${project.artworkGallery
+          .map(
+            (item, index) => `
+              <img
+                class="project-card__gallery-image ${index === 0 ? "is-primary" : ""}"
+                src="${item.src}"
+                alt="${item.alt}"
+                loading="lazy"
+              />
+            `
+          )
+          .join("")}
+      </div>
+    `;
+  }
+
+  return `<img src="${project.artwork}" alt="${project.artworkAlt}" loading="lazy" />`;
+}
+
 function renderProjects(active = "All") {
   const projects =
     active === "All"
@@ -423,7 +453,7 @@ function renderProjects(active = "All") {
       (project) => `
         <article class="project-card" data-reveal>
           <figure class="project-card__visual">
-            <img src="${project.artwork}" alt="${project.artworkAlt}" loading="lazy" />
+            ${renderProjectVisual(project)}
           </figure>
 
           <div class="project-card__inner">
