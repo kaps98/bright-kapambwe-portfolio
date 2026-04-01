@@ -76,115 +76,77 @@ const portfolioData = {
   ],
   filters: [
     "All",
-    "Leadership",
-    "Data & AI",
-    "Monitoring & Evaluation",
-    "Web Development"
+    "App",
+    "Website"
   ],
   projects: [
     {
-      title: "Operational Quality Leadership",
-      category: "Leadership",
-      role: "Project Lead",
-      period: "Current role",
-      artwork: "assets/project-ops-lead.svg",
+      title: "SalesPilot Sales Tracking System",
+      category: "App",
+      role: "Designer and Developer",
+      period: "2026",
+      artwork: "assets/sales-tracking-system-shot.png",
       artworkAlt:
-        "Dashboard-style mockup representing team coordination, delivery oversight, and quality tracking.",
+        "Screenshot of the sales tracking system login and business workspace interface.",
       summary:
-        "This is a recruiter-friendly snapshot of my operational leadership work, where quality, deadlines, and team coordination all need to stay aligned.",
+        "I designed and built a sales tracking system for managing sales, receipts, stock movement, user roles, and reporting in one business workspace.",
       challenge:
-        "I work to keep a large team productive while protecting delivery timelines, review accuracy, and client expectations in a fast-moving workflow.",
+        "I wanted to build a practical business system that goes beyond a simple dashboard by handling real sales operations, receipts, inventory control, and user access.",
       contributions: [
-        "I lead and manage a team of 25+ members to keep work organized and output consistent.",
-        "I track project progress, backlogs, and deadlines so delivery stays visible and controlled.",
-        "I embed quality checks, reviews, and error analysis into the day-to-day workflow."
+        "I built the front-end interface for login, dashboard navigation, sales entry, inventory workflows, and reporting views.",
+        "I connected the app to a Python backend and MySQL database so the system could store and retrieve real business data.",
+        "I added business-oriented features such as receipts, low-stock monitoring, exports, and role-based access."
       ],
       outcome:
-        "I strengthen operational visibility and more dependable execution by combining people management with structured review discipline.",
+        "The result is a more complete business management system that shows I can think beyond static pages and build software with structure, data, and workflow logic.",
       proof: [
-        "25+ teammates coordinated",
-        "Backlog and deadline oversight",
-        "Quality checks built into delivery"
+        "Python backend",
+        "MySQL database",
+        "Role-based login"
       ],
-      tags: ["Leadership", "Quality Assurance", "Backlog Management", "Client Collaboration"]
+      tags: ["JavaScript", "Python", "MySQL", "Business Software"],
+      links: [
+        {
+          label: "GitHub Repo",
+          href: "https://github.com/kaps98/sales-tracking-system"
+        }
+      ]
     },
     {
-      title: "Monitoring and Evaluation Reporting System",
-      category: "Monitoring & Evaluation",
-      role: "Monitoring and Evaluation Officer / Database Manager",
-      period: "2024 - 2025",
-      artwork: "assets/project-me-reporting.svg",
+      title: "Professional Portfolio Website",
+      category: "Website",
+      role: "Designer and Developer",
+      period: "2026",
+      artwork: "assets/portfolio-website-shot-cropped.png",
       artworkAlt:
-        "Reporting dashboard mockup representing monitoring and evaluation summaries, charts, and implementation tracking.",
+        "Screenshot of the Bright Kapambwe professional portfolio website.",
       summary:
-        "This is a structured view of my reporting and database work for impact-focused programs that need clear progress visibility.",
+        "I designed and built this portfolio website to present my skills, experience, projects, and contact information in a professional way online.",
       challenge:
-        "I turn ongoing project activity into useful reporting for stakeholders while keeping records organized and implementation progress easy to follow.",
+        "I needed a polished web presence that felt more professional than a CV alone and could support GitHub, LinkedIn, and future project growth.",
       contributions: [
-        "I prepare and present regular progress reports in Excel with achievements, risks, and recommendations.",
-        "I work with project managers, technical experts, and community leaders to improve reporting quality.",
-        "I support monitoring workflows with database-oriented organization and record handling."
+        "I created the site structure, content strategy, and visual system to make the portfolio feel modern and interactive.",
+        "I organized the site around my experience, qualifications, skills, and real GitHub projects so it supports applications and outreach.",
+        "I published the site on GitHub Pages and connected it to both GitHub and LinkedIn."
       ],
       outcome:
-        "I help project information move from scattered updates to clearer reporting that supports stronger communication and follow-through.",
+        "The site now works as my main professional web presence and gives recruiters or collaborators a clearer way to understand my work than a PDF alone.",
       proof: [
-        "Excel-based reporting",
-        "Stakeholder-facing summaries",
-        "Database and M&E support"
+        "Live on GitHub Pages",
+        "Responsive layout",
+        "Resume download"
       ],
-      tags: ["M&E", "Excel Reporting", "Database Management", "Stakeholder Communication"]
-    },
-    {
-      title: "AI-Ready Data Annotation Workflow",
-      category: "Data & AI",
-      role: "Data Operations",
-      period: "Ongoing skill area",
-      artwork: "assets/project-data-ai.svg",
-      artworkAlt:
-        "AI workflow mockup representing dataset review, annotation tasks, and quality control checkpoints.",
-      summary:
-        "This card reflects my data operations capability, especially where AI workflows depend on clean labeling, review, and careful handling of data.",
-      challenge:
-        "I support annotation-heavy workflows that require accuracy, confidentiality, and consistent rule-following across different task types.",
-      contributions: [
-        "I work with internal tools for data labeling, annotation, and quality assurance workflows.",
-        "I handle tasks such as dataset validation, annotation guideline compliance, and review control.",
-        "I support audio transcription plus image and video annotation in quality-focused environments."
-      ],
-      outcome:
-        "I build trust in data quality processes by combining careful execution, strong attention to detail, and comfort with review-based work.",
-      proof: [
-        "Dataset validation",
-        "Annotation compliance",
-        "Audio, image, and video tasks"
-      ],
-      tags: ["Data Annotation", "Dataset Validation", "Audio Transcription", "Quality Control"]
-    },
-    {
-      title: "Web and Software Development Foundation",
-      category: "Web Development",
-      role: "Computer Scientist",
-      period: "Built through study and certification",
-      artwork: "assets/project-web-foundation.svg",
-      artworkAlt:
-        "Portfolio and code editor style mockup representing front-end development and software foundations.",
-      summary:
-        "I have a technical foundation that supports portfolio sites, small web builds, digital tools, and future product work.",
-      challenge:
-        "I continue building practical technical range so I can contribute across web interfaces, databases, and general software problem solving.",
-      contributions: [
-        "I have built a programming base across JavaScript, HTML, CSS, Python, Java, and C.",
-        "I strengthened my web and AI knowledge through additional certificate study.",
-        "I connect software basics with graphic design awareness and practical computer maintenance skills."
-      ],
-      outcome:
-        "This foundation gives me room to grow into stronger web, product, and technical support opportunities while already being useful on digital projects.",
-      proof: [
-        "Front-end fundamentals",
-        "Programming language range",
-        "Certificate-backed web learning"
-      ],
-      tags: ["JavaScript", "HTML", "CSS", "Python", "Databases"]
+      tags: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+      links: [
+        {
+          label: "Live Site",
+          href: "https://kaps98.github.io/bright-kapambwe-portfolio/"
+        },
+        {
+          label: "GitHub Repo",
+          href: "https://github.com/kaps98/bright-kapambwe-portfolio"
+        }
+      ]
     }
   ],
   experience: [
@@ -447,7 +409,7 @@ function renderFilters(active = "All") {
 }
 
 function projectCategoryTone(category) {
-  return category === "Leadership" || category === "Monitoring & Evaluation" ? "" : "is-teal";
+  return category === "App" ? "" : "is-teal";
 }
 
 function renderProjects(active = "All") {
@@ -499,6 +461,18 @@ function renderProjects(active = "All") {
 
             <div class="project-proof">
               ${project.proof.map((item) => `<span class="project-proof-item">${item}</span>`).join("")}
+            </div>
+
+            <div class="project-links">
+              ${project.links
+                .map(
+                  (link) => `
+                    <a class="button button-secondary project-link-button" href="${link.href}" target="_blank" rel="noreferrer">
+                      ${link.label}
+                    </a>
+                  `
+                )
+                .join("")}
             </div>
 
             <div class="project-tags">

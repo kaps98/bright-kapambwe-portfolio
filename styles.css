@@ -733,6 +733,16 @@ h2 {
   gap: 10px;
 }
 
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.project-link-button {
+  min-height: 44px;
+}
+
 .project-proof-item {
   display: inline-flex;
   align-items: center;
