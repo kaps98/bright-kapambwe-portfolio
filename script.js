@@ -5,7 +5,7 @@ const portfolioData = {
     phone: "+260764201211",
     location: "Mansa Town, Zambia",
     resume: "assets/Bright-Kapambwe-Resume.pdf",
-    github: "",
+    github: "https://github.com/kaps98/bright-kapambwe-portfolio",
     linkedin: ""
   },
   stats: [
