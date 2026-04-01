@@ -85,18 +85,11 @@ const portfolioData = {
       category: "App",
       role: "Designer and Developer",
       period: "2026",
-      artworkGallery: [
-        {
-          src: "assets/sales-tracking-dashboard-shot.png",
-          alt: "Screenshot of the sales tracking system dashboard showing business metrics, stock, and sales activity."
-        },
-        {
-          src: "assets/sales-tracking-sales-shot.png",
-          alt: "Screenshot of the sales tracking system sales page showing the sale entry form and receipt preview."
-        }
-      ],
+      artwork: "assets/sales-tracking-dashboard-shot.png",
+      artworkAlt:
+        "Screenshot of the sales tracking system dashboard showing business metrics, stock, and sales activity.",
       summary:
-        "I designed and built a sales tracking system for managing sales, receipts, stock movement, user roles, and reporting in one business workspace.",
+        "I designed and built a sales tracking system for managing sales, receipts, stock movement, user roles, and reporting in one business workspace. This is a separate project linked from my portfolio.",
       challenge:
         "I wanted to build a practical business system that goes beyond a simple dashboard by handling real sales operations, receipts, inventory control, and user access.",
       contributions: [
@@ -419,29 +412,6 @@ function projectCategoryTone(category) {
   return category === "App" ? "" : "is-teal";
 }
 
-function renderProjectVisual(project) {
-  if (project.artworkGallery?.length) {
-    return `
-      <div class="project-card__gallery">
-        ${project.artworkGallery
-          .map(
-            (item, index) => `
-              <img
-                class="project-card__gallery-image ${index === 0 ? "is-primary" : ""}"
-                src="${item.src}"
-                alt="${item.alt}"
-                loading="lazy"
-              />
-            `
-          )
-          .join("")}
-      </div>
-    `;
-  }
-
-  return `<img src="${project.artwork}" alt="${project.artworkAlt}" loading="lazy" />`;
-}
-
 function renderProjects(active = "All") {
   const projects =
     active === "All"
@@ -453,7 +423,7 @@ function renderProjects(active = "All") {
       (project) => `
         <article class="project-card" data-reveal>
           <figure class="project-card__visual">
-            ${renderProjectVisual(project)}
+            <img src="${project.artwork}" alt="${project.artworkAlt}" loading="lazy" />
           </figure>
 
           <div class="project-card__inner">
@@ -468,29 +438,6 @@ function renderProjects(active = "All") {
             <div class="project-card__body">
               <h3>${project.title}</h3>
               <p class="project-card__summary">${project.summary}</p>
-            </div>
-
-            <div class="project-brief">
-              <article class="project-panel">
-                <span class="project-label">Challenge</span>
-                <p>${project.challenge}</p>
-              </article>
-
-              <article class="project-panel">
-                <span class="project-label">Contribution</span>
-                <ul class="project-list">
-                  ${project.contributions.map((detail) => `<li>${detail}</li>`).join("")}
-                </ul>
-              </article>
-
-              <article class="project-panel">
-                <span class="project-label">Value</span>
-                <p>${project.outcome}</p>
-              </article>
-            </div>
-
-            <div class="project-proof">
-              ${project.proof.map((item) => `<span class="project-proof-item">${item}</span>`).join("")}
             </div>
 
             <div class="project-links">
