@@ -165,34 +165,101 @@ const portfolioData = {
   ],
   certifications: [
     {
-      title: "Ethics, Technology and Engineering",
-      institution: "University of Notre Dame",
-      period: "2022",
-      label: "Certificate",
-      summary:
-        "This certificate strengthened how I think about ethics, responsibility, and the broader impact of technology decisions."
-    },
-    {
       title: "Operations Research Series",
       institution: "National Taiwan University",
       period: "2023",
       label: "3 Certificates",
       summary:
-        "These certificates covered optimization algorithms, theory, and models that support analytical decision-making."
+        "I completed three operations research courses covering models, optimization algorithms, and theory for structured decision-making."
     },
     {
-      title: "Artificial Intelligence",
-      institution: "State University of New York",
-      period: "2023",
-      label: "Certificate",
-      summary: "This certificate expanded my understanding of AI concepts and their practical use in digital transformation."
+      title: "Ethics and Responsible Technology",
+      institution: "University of Notre Dame + Eindhoven University of Technology",
+      period: "2022 - 2023",
+      label: "2 Certificates",
+      summary:
+        "These credentials strengthened how I think about ethics, responsibility, and the broader impact of technology."
     },
     {
-      title: "Web Development",
-      institution: "State University of New York",
+      title: "AI and Machine Learning",
+      institution: "DeepLearning.AI + IBM",
       period: "2023",
-      label: "Certificate",
-      summary: "This certificate strengthened my front-end foundation and supports both this portfolio and my future web work."
+      label: "2 Certificates",
+      summary:
+        "These courses expanded my understanding of AI concepts, machine learning foundations, and their practical use in digital transformation."
+    },
+    {
+      title: "Web Development Foundations",
+      institution: "Duke University + State University of New York",
+      period: "2023",
+      label: "2 Certificates",
+      summary:
+        "These courses strengthened my foundation in HTML, CSS, JavaScript, and practical website building."
+    },
+    {
+      title: "Digital Tools Projects",
+      institution: "Coursera Project Network",
+      period: "2023",
+      label: "2 Projects",
+      summary:
+        "These guided projects strengthened my practical skills in Microsoft Excel and WordPress website building."
+    }
+  ],
+  certificationLinks: [
+    {
+      title: "Operations Research (2): Optimization Algorithms",
+      institution: "National Taiwan University",
+      href: "https://www.coursera.org/account/accomplishments/verify/ZWHXC4DEL4CV"
+    },
+    {
+      title: "Operations Research (3): Theory",
+      institution: "National Taiwan University",
+      href: "https://www.coursera.org/account/accomplishments/verify/GP7CDE7UU6M2"
+    },
+    {
+      title: "Programming Foundations with JavaScript, HTML and CSS",
+      institution: "Duke University",
+      href: "https://www.coursera.org/account/accomplishments/verify/9QVKTVYQ9VPB"
+    },
+    {
+      title: "How To Create a Website in a Weekend! (Project-Centered Course)",
+      institution: "The State University of New York",
+      href: "https://www.coursera.org/account/accomplishments/verify/8BBAYEJWKKN4"
+    },
+    {
+      title: "Operations Research (1): Models and Applications",
+      institution: "National Taiwan University",
+      href: "https://www.coursera.org/account/accomplishments/verify/L529PWLL8KU3"
+    },
+    {
+      title: "Getting Started with Microsoft Excel",
+      institution: "Coursera Project Network",
+      href: "https://www.coursera.org/account/accomplishments/verify/QKPWZ3NH5Y2U"
+    },
+    {
+      title: "Machine Learning with Python",
+      institution: "IBM",
+      href: "https://www.coursera.org/account/accomplishments/verify/6VLYYDF4S89B"
+    },
+    {
+      title: "AI For Everyone",
+      institution: "DeepLearning.AI",
+      href: "https://www.coursera.org/account/accomplishments/verify/EUVUVY2X4WY3"
+    },
+    {
+      title: "Ethics, Technology and Engineering",
+      institution: "Eindhoven University of Technology",
+      href: "https://www.coursera.org/account/accomplishments/verify/NEHJLCSC4UXD"
+    },
+    {
+      title: "Build a Full Website using WordPress",
+      institution: "Coursera Project Network",
+      href: "https://www.coursera.org/account/accomplishments/verify/MRT8444EQ86R"
+    },
+    {
+      title: "Ethics of Technology",
+      institution: "University of Notre Dame",
+      href: "https://www.coursera.org/account/accomplishments/verify/58JTVC2NANB9"
     }
   ],
   skillGroups: [
@@ -532,6 +599,42 @@ function renderSkills() {
     .join("");
 }
 
+function renderCertificationLinks() {
+  certificationsList.insertAdjacentHTML(
+    "beforeend",
+    `
+      <article class="panel credential-panel" data-reveal>
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Verified Links</p>
+            <h2>Coursera Credentials</h2>
+          </div>
+          <span class="panel-label">${portfolioData.certificationLinks.length} Links</span>
+        </div>
+        <p>
+          All certificate links below were checked and opening successfully before being added to
+          this portfolio.
+        </p>
+        <details class="credential-module">
+          <summary>Open Verified Certificate Links</summary>
+          <div class="credential-list">
+            ${portfolioData.certificationLinks
+              .map(
+                (item) => `
+                  <a class="credential-link" href="${item.href}" target="_blank" rel="noreferrer">
+                    <strong>${item.title}</strong>
+                    <span>${item.institution}</span>
+                  </a>
+                `
+              )
+              .join("")}
+          </div>
+        </details>
+      </article>
+    `
+  );
+}
+
 function renderContactCards() {
   contactCards.innerHTML = portfolioData.contactCards
     .map((item) => {
@@ -651,6 +754,7 @@ function init() {
   renderExperience();
   renderPanels(educationList, "Education", portfolioData.education);
   renderPanels(certificationsList, "Certifications", portfolioData.certifications);
+  renderCertificationLinks();
   renderSkills();
   renderContactCards();
   animateCounters();
