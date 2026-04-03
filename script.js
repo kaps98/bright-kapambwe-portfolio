@@ -5,7 +5,7 @@ const portfolioData = {
     phone: "+260764201211",
     location: "Mansa Town, Zambia",
     resume: "assets/Bright-Kapambwe-Resume.pdf",
-    github: "https://github.com/kaps98/bright-kapambwe-portfolio",
+    github: "https://github.com/kaps98",
     linkedin: "https://www.linkedin.com/in/kapambwe-bright-726a12292/"
   },
   stats: [
@@ -201,42 +201,43 @@ const portfolioData = {
       description: "These are the technical areas I use to build, support, and improve digital work.",
       items: [
         "JavaScript",
-        "HTML",
-        "CSS",
+        "HTML5",
+        "CSS3",
         "Python",
         "Java",
         "C",
-        "Database Management",
+        "SQL / MySQL",
         "Data Analysis",
-        "Expert in AI Tools",
-        "Microsoft Office"
+        "AI-assisted workflows",
+        "Excel reporting",
+        "Git / GitHub"
       ]
     },
     {
       title: "Operations and Delivery",
       description: "These skills help me keep teams organized, accurate, and on track under real work conditions.",
       items: [
-        "Project Management",
+        "Project coordination",
         "Quality Assurance",
-        "Dataset Validation",
+        "Dataset validation",
         "Monitoring and Evaluation",
-        "Data Annotation and Labeling",
-        "Annotation Guidelines Compliance",
-        "Reporting Workflows",
-        "Attention to Detail"
+        "Data annotation",
+        "Guideline compliance",
+        "Progress reporting",
+        "Attention to detail"
       ]
     },
     {
       title: "Professional Strengths",
       description: "These are the collaboration and execution qualities that make me effective in team environments.",
       items: [
-        "Leadership",
+        "Team leadership",
         "Critical Thinking",
-        "Effective Communication",
+        "Stakeholder communication",
         "Time Management",
-        "Teamwork",
-        "Computer Literacy",
-        "Administration",
+        "Team collaboration",
+        "Administrative support",
+        "Problem solving",
         "Graphic Design"
       ]
     },
@@ -247,10 +248,11 @@ const portfolioData = {
         "English",
         "Bemba",
         "Nyanja",
-        "Audio Transcription and Translation",
-        "Image and Video Annotation",
-        "Data Quality Assurance",
-        "Hardware and Software",
+        "Audio transcription",
+        "Translation",
+        "Image annotation",
+        "Video annotation",
+        "Data quality review",
         "Computer Maintenance"
       ]
     }
@@ -273,8 +275,8 @@ const portfolioData = {
     },
     {
       title: "GitHub",
-      value: "kaps98/bright-kapambwe-portfolio",
-      href: "https://github.com/kaps98/bright-kapambwe-portfolio"
+      value: "github.com/kaps98",
+      href: "https://github.com/kaps98"
     },
     {
       title: "Location",
@@ -332,7 +334,7 @@ function createSocialArea() {
 
   if (portfolioData.profile.github) {
     links.push(
-      `<a class="pill" href="${portfolioData.profile.github}" target="_blank" rel="noreferrer">GitHub</a>`
+      `<a class="pill" href="${portfolioData.profile.github}" target="_blank" rel="noreferrer">GitHub Profile</a>`
     );
   }
 
@@ -536,11 +538,11 @@ function renderContactCards() {
       const linkAttrs =
         item.href && item.href.startsWith("http") ? ' target="_blank" rel="noreferrer"' : "";
       const content = item.href
-        ? `<a href="${item.href}"${linkAttrs}>${item.value}</a>`
+        ? `<a class="contact-link" href="${item.href}"${linkAttrs}>${item.value}</a>`
         : `<span>${item.value}</span>`;
 
       return `
-        <article class="contact-panel">
+        <article class="contact-panel ${item.href ? "is-link" : ""}">
           <strong>${item.title}</strong>
           ${content}
         </article>
