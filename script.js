@@ -17,47 +17,47 @@ const portfolioData = {
   focusAreas: [
     {
       title: "Project Leadership",
-      description: "I bring backlog tracking, deadline management, and team coordination."
+      description: "I organize work, track priorities, and help teams deliver on time."
     },
     {
       title: "Data Quality",
-      description: "I focus on validation, review, reporting, and process discipline."
+      description: "I improve accuracy through review, validation, and consistent reporting."
     },
     {
       title: "Monitoring & Evaluation",
-      description: "I support impact work through structured reporting and database organization."
+      description: "I support evidence-based programs through reporting, tracking, and database follow-through."
     },
     {
       title: "Technical Foundation",
-      description: "I work across web development, programming, databases, and AI tools."
+      description: "I work across web tools, databases, programming, and AI-assisted workflows."
     }
   ],
   aboutStrengths: [
     "Team coordination",
-    "Quality reviews",
+    "Quality control",
     "Excel reporting",
     "Database support",
-    "AI-data workflows",
+    "AI-assisted workflows",
     "Stakeholder communication",
-    "Project follow-through",
-    "Web foundations"
+    "Delivery follow-through",
+    "Web development foundations"
   ],
   roleFit: [
     {
       title: "Project Coordination and Operations",
-      description: "I add value where a team needs structure, task tracking, and dependable delivery."
+      description: "I fit roles that need coordination, task tracking, and reliable execution."
     },
     {
       title: "Monitoring and Evaluation Support",
-      description: "I am a strong fit for reporting, database support, and implementation follow-up."
+      description: "I support reporting, database management, and implementation follow-up."
     },
     {
       title: "Data Quality and Annotation Operations",
-      description: "I am comfortable in review-heavy workflows that depend on accuracy and consistency."
+      description: "I work well in accuracy-driven environments where review and consistency matter."
     },
     {
       title: "Junior Web or Digital Support Roles",
-      description: "I bring enough front-end and programming foundation to keep growing in product teams."
+      description: "I bring a strong enough technical base to contribute and keep growing in digital teams."
     }
   ],
   marquee: [
@@ -96,20 +96,20 @@ const portfolioData = {
         }
       ],
       summary:
-        "I designed and built a business system for managing sales, receipts, stock movement, user roles, and reporting in one workspace. This is a separate project linked from my portfolio.",
+        "I designed and built a business system that manages sales, receipts, stock movement, user roles, and reporting in one workspace.",
       challenge:
-        "I wanted to build a practical business system that goes beyond a simple dashboard by handling real sales operations, receipts, inventory control, and user access.",
+        "I wanted to build a practical system that does more than display charts by supporting real sales operations, stock control, receipts, user access, and reporting.",
       contributions: [
-        "I built the front-end interface for login, dashboard navigation, sales entry, inventory workflows, and reporting views.",
-        "I connected the app to a Python backend and MySQL database so the system could store and retrieve real business data.",
-        "I added business-oriented features such as receipts, low-stock monitoring, exports, and role-based access."
+        "I built the interface for login, navigation, sales capture, inventory workflows, and reporting screens.",
+        "I connected the application to a Python backend and MySQL database so business records could be stored and retrieved reliably.",
+        "I added features such as receipts, low-stock monitoring, exports, and role-based access to reflect real business use."
       ],
       outcome:
-        "The result is a more complete business management system that shows I can think beyond static pages and build software with structure, data, and workflow logic.",
+        "The result is a practical business system that shows I can design structured software, connect it to data, and support real operational workflows.",
       proof: [
         "Python backend",
         "MySQL database",
-        "Role-based login"
+        "Role-based access"
       ],
       tags: ["JavaScript", "Python", "MySQL", "Business Software"],
       links: [
@@ -126,11 +126,11 @@ const portfolioData = {
       organization: "YENDA",
       period: "Current role",
       summary:
-        "I lead operational delivery with a focus on people management, data quality, client expectations, and day-to-day execution discipline.",
+        "I lead day-to-day operational delivery, balancing people management, quality control, client expectations, and execution discipline.",
       highlights: [
         "I coordinate a team of 25+ members to maintain workflow efficiency and quality standards.",
-        "I manage backlogs, deadlines, and performance feedback loops to improve productivity.",
-        "I conduct reviews and error analysis to help the team maintain a 95% data quality target."
+        "I manage backlogs, deadlines, and feedback loops to improve consistency and productivity.",
+        "I run reviews and error analysis to help the team maintain a 95% data quality target."
       ]
     },
     {
@@ -138,9 +138,9 @@ const portfolioData = {
       organization: "Vision Africa Regional Network - Zambia",
       period: "2024 - 2025",
       summary:
-        "I combined reporting, database support, and stakeholder coordination to help programs communicate progress and maintain structured records.",
+        "I combined reporting, database support, and stakeholder coordination to help programs track progress and maintain structured records.",
       highlights: [
-        "I produced progress reports in Excel that highlighted achievements, risks, and recommendations.",
+        "I produced Excel progress reports that highlighted achievements, risks, and recommendations.",
         "I worked closely with project stakeholders, including technical experts and community leaders.",
         "I supported database management and monitoring workflows to improve reporting clarity and implementation follow-through."
       ]
@@ -153,14 +153,14 @@ const portfolioData = {
       period: "2020 - 2024",
       label: "Degree",
       summary:
-        "This degree gave me an academic foundation in computer science with practical relevance for software, data systems, and digital problem solving."
+        "This degree gave me a strong foundation in computer science and practical grounding in software, data systems, and digital problem-solving."
     },
     {
       title: "Grade 12 School Certificate",
       institution: "Chitamba Secondary School",
       period: "2017 - 2019",
       label: "School",
-      summary: "This stage of my education supported my path into higher technical study."
+      summary: "This stage prepared me for higher technical study and my transition into computer science."
     }
   ],
   certifications: [
@@ -170,7 +170,7 @@ const portfolioData = {
       period: "2022",
       label: "Certificate",
       summary:
-        "This certificate strengthened how I think about ethics, responsibility, and the wider impact of technology decisions."
+        "This certificate strengthened how I think about ethics, responsibility, and the broader impact of technology decisions."
     },
     {
       title: "Operations Research Series",
@@ -178,27 +178,27 @@ const portfolioData = {
       period: "2023",
       label: "3 Certificates",
       summary:
-        "These certificates covered optimization algorithms, theory, and models that support structured decision-making."
+        "These certificates covered optimization algorithms, theory, and models that support analytical decision-making."
     },
     {
       title: "Artificial Intelligence",
       institution: "State University of New York",
       period: "2023",
       label: "Certificate",
-      summary: "This certificate expanded my understanding of AI concepts and practical digital transformation potential."
+      summary: "This certificate expanded my understanding of AI concepts and their practical use in digital transformation."
     },
     {
       title: "Web Development",
       institution: "State University of New York",
       period: "2023",
       label: "Certificate",
-      summary: "This certificate strengthened my front-end foundation and directly supports this portfolio and my future web work."
+      summary: "This certificate strengthened my front-end foundation and supports both this portfolio and my future web work."
     }
   ],
   skillGroups: [
     {
       title: "Technical Toolkit",
-      description: "These are the technical areas I use to build, support, and improve digital work.",
+      description: "These are the technical tools I use to build, support, and improve digital work.",
       items: [
         "JavaScript",
         "HTML5",
@@ -215,7 +215,7 @@ const portfolioData = {
     },
     {
       title: "Operations and Delivery",
-      description: "These skills help me keep teams organized, accurate, and on track under real work conditions.",
+      description: "These skills help me keep teams organized, accurate, and on track in real work environments.",
       items: [
         "Project coordination",
         "Quality Assurance",
@@ -229,7 +229,7 @@ const portfolioData = {
     },
     {
       title: "Professional Strengths",
-      description: "These are the collaboration and execution qualities that make me effective in team environments.",
+      description: "These are the collaboration and execution qualities that make me effective in team settings.",
       items: [
         "Team leadership",
         "Critical Thinking",
@@ -243,7 +243,7 @@ const portfolioData = {
     },
     {
       title: "Language and Media Work",
-      description: "I use these capabilities in multilingual communication and data-centric media tasks.",
+      description: "I use these capabilities in multilingual communication and media-related data tasks.",
       items: [
         "English",
         "Bemba",
@@ -270,7 +270,7 @@ const portfolioData = {
     },
     {
       title: "LinkedIn",
-      value: "kapambwe-bright-726a12292",
+      value: "linkedin.com/in/kapambwe-bright-726a12292",
       href: "https://www.linkedin.com/in/kapambwe-bright-726a12292/"
     },
     {
