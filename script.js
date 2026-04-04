@@ -1,6 +1,6 @@
 const portfolioData = {
   profile: {
-    name: "BRIGHT CHANSA KAPAMBWE",
+    name: "Bright Kapambwe Chansa",
     email: "chansakantalamba@gmail.com",
     personalEmail: "kapambwebright0@gmail.com",
     phone: "+260764201211",
