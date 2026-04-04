@@ -1,7 +1,8 @@
 const portfolioData = {
   profile: {
-    name: "Bright Kapambwe",
-    email: "kapambwebright0@gmail.com",
+    name: "BRIGHT CHANSA KAPAMBWE",
+    email: "chansakantalamba@gmail.com",
+    personalEmail: "kapambwebright0@gmail.com",
     phone: "+260764201211",
     location: "Mansa Town, Zambia",
     resume: "assets/Bright-Kapambwe-Resume.pdf",
@@ -326,7 +327,12 @@ const portfolioData = {
   ],
   contactCards: [
     {
-      title: "Email",
+      title: "Work Email",
+      value: "chansakantalamba@gmail.com",
+      href: "mailto:chansakantalamba@gmail.com"
+    },
+    {
+      title: "Personal Email",
       value: "kapambwebright0@gmail.com",
       href: "mailto:kapambwebright0@gmail.com"
     },
