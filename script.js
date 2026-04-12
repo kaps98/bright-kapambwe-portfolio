@@ -310,18 +310,12 @@ const portfolioData = {
       ]
     },
     {
-      title: "Language and Media Work",
-      description: "I use these capabilities in multilingual communication and media-related data tasks.",
+      title: "Languages",
+      description: "These are the languages I use in communication and professional work.",
       items: [
         "English",
-        "Bemba",
         "Nyanja",
-        "Audio transcription",
-        "Translation",
-        "Image annotation",
-        "Video annotation",
-        "Data quality review",
-        "Computer Maintenance"
+        "Bemba"
       ]
     }
   ],
@@ -357,7 +351,7 @@ const portfolioData = {
     },
     {
       title: "Languages",
-      value: "English, Bemba, Nyanja"
+      value: "English, Nyanja, Bemba"
     }
   ]
 };
